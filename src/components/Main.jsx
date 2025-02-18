@@ -1,22 +1,24 @@
 export default function Main() {
     return (
-        <main>
-            <nav>
-                <ul>
-                    <li><a href="">HTML</a></li>
-                    <li><a href="">CSS</a></li>
-                    <li><a href="">JavaScript</a></li>
-                    <li><a href="">Node.js</a></li>
-                    <li><a href="">Express</a></li>
-                    <li><a href="">ReactJS</a></li>
+        <div className="wrapper">
+            <h1>Learn Web development</h1>
+            <div className="button-wrapper">
+                <ul className="button-list">
+                    <li className="button">HTML</li>
+                    <li className="button">CSS</li>
+                    <li className="button">JavaScript</li>
+                    <li className="button">Node.js</li>
+                    <li className="button">Express</li>
+                    <li className="button">ReactJSX</li>
                 </ul>
-            </nav>
-            <section className="description">
-                <h2>Title</h2>
-                <p>Text</p>
+            </div>
+            <div className="card">
+                <h3 className="card-title"></h3>
+                <p className="description"></p>
+            </div>
 
-            </section>
-        </main>
+        </div>
+
     );
     
 }
